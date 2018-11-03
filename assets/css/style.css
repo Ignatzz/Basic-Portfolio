@@ -10,7 +10,7 @@ h1, h2, h3 {
     float: left;
     width:200px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 header{
@@ -117,4 +117,43 @@ footer{
     padding-top: 8px;
     color:#999999;
     margin-top:30px;
+}
+
+label{
+    display:block;
+    font-size:18px;
+}
+
+input, textarea  {
+    width: 100%;
+    display:block;
+    margin: 5px 0 20px 0;
+    border: 2px solid #cccccc:
+    padding: 10px;
+}
+
+textarea {
+    height: 240px;
+}
+
+#contactsection{
+    width: 100%;
+    border-top-style: solid;
+    border-top-color: #dddddd;
+    color: #777777;
+    background-color: #ffffff;
+    float: left;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    clear:both;
+    padding:18px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+#submitbutton{
+    background-color:#4aaaa5;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 80px;
 }
