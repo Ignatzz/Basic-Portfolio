@@ -6,18 +6,18 @@ body{
     color:#777777;
 }
 
-h1, h2, h3 {
-    float: left;
-    width:200px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-
 header{
-    width:960px;
     margin: auto;
     background-color:white;
     margin-bottom: 25px;
+}
+
+h1, h2, {
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+    
 }
 
 h1 {
@@ -28,8 +28,45 @@ h1 {
     height: 55px;
     width:220px;
     text-align: center;
+    margin: 0;
     padding-top: 20px;
-    font-weight: bold;
+}
+
+h2{
+    clear: both;
+    color:#4aaaa5;
+    background-color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 15px;
+    border-bottom-color: #cccccc;
+    border-style: solid;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    padding-bottom:25px;
+}
+
+
+img{
+    width: 220px;
+}
+
+
+
+h4{
+    background-color:#4aaaa5;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    font-weight: normal;
+    height: 38px;
+    padding-top: 14px;
+    z-index: 1;
+    margin: 0;
+    position: relative;
+    top: -67px;
+    width: 220px;
+
 }
 
 nav {
@@ -64,18 +101,9 @@ font-size:16;
 }
 
 
-h2{
-    clear: both;
-    color:#4aaaa5;
-    background-color:white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 15px;
-}
 
 
 #mainsection{
-    border-top-style: solid;
-    border-top-color: #dddddd;
     color: #777777;
     background-color: #ffffff;
     float: left;
@@ -84,6 +112,7 @@ h2{
     padding:22px;
     background-color: white;
     margin-bottom: 30px;
+    width: 960px;
 }
 
 #martguitar{
@@ -156,4 +185,33 @@ textarea {
     color: white;
     height: 30px;
     width: 80px;
+}
+
+
+.portfolioitem{
+    position: relative;
+    margin-bottom: 20px;
+    width: 26%;
+}
+
+#port1{
+    float:left;
+}
+
+#port2{
+    float:right;
+    margin-right:45%;
+}
+
+#port3{
+    float:left;
+}
+
+#port4{
+    float:right;
+    margin-right:45%;
+}
+
+#port5{
+    float:left;
 }
