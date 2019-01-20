@@ -53,18 +53,17 @@ img{
 
 
 
-h4{
+h4, h5{
     background-color:#4aaaa5;
     font-size: 20px;
     color:white;
     text-align: center;
     font-weight: normal;
-    height: 38px;
-    padding-top: 14px;
+    padding-top: 6px;
     z-index: 1;
     margin: 0;
     position: relative;
-    top: -67px;
+    top: -60px;
     width: 220px;
 
 }
@@ -87,6 +86,10 @@ text-decoration: none;
 font-size:16;
 }
 
+p {
+    margin-right: 20px;
+}
+
 .wrapper{
     width:960px;
     margin:0 auto;
@@ -99,9 +102,6 @@ font-size:16;
 #portfolio{
     padding-right: 20px;
 }
-
-
-
 
 
 
@@ -159,7 +159,7 @@ input, textarea  {
     width: 100%;
     display:block;
     margin: 5px 0 20px 0;
-    border: 2px solid #cccccc:
+    border: 2px solid #cccccc;
     padding: 10px;
 }
 
@@ -176,7 +176,7 @@ textarea {
     float: left;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     clear:both;
-    padding:18px;
+    padding:22px;
     background-color: white;
     margin-bottom: 30px;
 }
@@ -217,3 +217,147 @@ textarea {
 #port5{
     float:left;
 }
+#icon{
+    width: 100px;
+    margin-right: 55px;
+    margin-left: 55px;
+}
+
+@media screen and (max-width: 980px) {
+	
+  h1 {
+      margin-left: 40px;
+  }
+
+  nav {
+    margin-right: 300px;
+  }
+
+  #mainsection {
+    margin-left: 40px;
+    max-width: 550px;
+  }
+
+  #contactsection {
+      margin-left:40px;
+      max-width:550px;
+  }
+
+  #port2 {
+      margin-left: 100px;
+      float: right;
+      margin-right:80px;
+  }
+
+  #port4 {
+    margin-left: 100px;
+    float: right;
+    margin-right:80px;
+}
+#icon{
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .wrapper {
+        width: 100%;
+        margin:0;
+        padding:0;
+    }
+
+    h1 {
+    margin-left: 20px;
+  }
+  nav {
+    margin-right: 0px;
+    text-align: center;
+    width: 100%;
+    clear: both;
+  }
+
+
+  #mainsection {
+    clear: both;
+    max-width: 647px;
+    margin-left: 20px;
+  }
+
+  #contactsection {
+      max-width: 647px;
+      margin-left: 20px;
+  }
+
+  #icon{
+    width: 90px;
+    margin-right: 23px;
+    margin-left: 23px;
+}
+
+@media screen and (max-width: 640px) {
+
+    h1 {
+        clear: both;
+        width:100%;
+        margin: 0px;
+     
+    }    
+
+    nav {
+        width: 100%;
+        background-color: white;
+        margin: 0px;
+        margin-bottom: 20px;
+        clear: both;
+    }
+
+    #mainsection {
+        max-width: 540px;
+        margin-left:10px;
+        margin-right:10px;
+    }
+
+    #contactsection {
+        max-width: 540px;
+        margin-left:10px;
+        margin-right:10px;
+    }
+    
+    #martguitar {
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+
+    img {
+        width: 540px;
+    }
+
+    h4 {
+        width: 540px;
+    }
+
+    .portfolioitem {
+        clear: both;
+        margin: 0;
+    }
+    
+    #port2 {
+        float: left;
+        clear: both;
+        margin: 0;
+    }
+
+    #port4 {
+        float: left;
+        margin: 0;
+    }
+
+    #icon{
+        width: 75px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
