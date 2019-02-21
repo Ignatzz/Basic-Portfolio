@@ -217,6 +217,12 @@ textarea {
 #port5{
     float:left;
 }
+
+#port6{
+    float:right;
+    margin-right:45%;
+}
+
 #icon{
     width: 100px;
     margin-right: 55px;
@@ -250,6 +256,12 @@ textarea {
   }
 
   #port4 {
+    margin-left: 100px;
+    float: right;
+    margin-right:80px;
+}
+
+#port6 {
     margin-left: 100px;
     float: right;
     margin-right:80px;
@@ -352,6 +364,11 @@ textarea {
     }
 
     #port4 {
+        float: left;
+        margin: 0;
+    }
+
+    #port6 {
         float: left;
         margin: 0;
     }
