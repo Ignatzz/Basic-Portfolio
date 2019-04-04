@@ -218,7 +218,7 @@ textarea {
     float:left;
 }
 
-#port6{
+#port6, #port8{
     float:right;
     margin-right:45%;
 }
@@ -261,7 +261,7 @@ textarea {
     margin-right:80px;
 }
 
-#port6 {
+#port6, #port8 {
     margin-left: 100px;
     float: right;
     margin-right:80px;
@@ -368,7 +368,7 @@ textarea {
         margin: 0;
     }
 
-    #port6 {
+    #port6, #port8 {
         float: left;
         margin: 0;
     }
